@@ -1,6 +1,6 @@
 *{
-    padding: none;
-    margin: none;
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 body{
@@ -9,6 +9,10 @@ body{
     font-family: "DM Sans", sans-serif;
     
 }
+.boxx{
+    display: none;
+}
+
 .nav-container{
     display: flex;
     justify-content: space-between;
@@ -37,6 +41,7 @@ select{
     display: flex;
     gap: 30px;
 }
+
 .second-nav a{
     opacity: 0.3;
 }
@@ -67,6 +72,7 @@ p{
     display: flex;
    gap: 120px;
 }
+
 ul{
     line-height: 40px;
     list-style-type: none;
@@ -100,7 +106,13 @@ head{
     .aaa{
         display: inline;
     }
-.list-items{
-    display: inline;
-}
+    .list-items{
+        flex-wrap: wrap;
+        gap: 70px;
+        justify-content: center;
+        
+    }
+
+.boxx{
+    display: block;
 }
